@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ActivityStart">
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="268dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="72dp"
+        android:backgroundTint="#030109"
+        android:text="Oyuna Başla"
+        app:cornerRadius="12dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:strokeColor="#835eba"
+        app:strokeWidth="2dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="177dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="117dp"
+        android:background="#00F2F2F2"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_removebg_preview" />
+
+    <Button
+        android:id="@+id/buttonHowToPlay"
+        android:layout_width="268dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginEnd="72dp"
+        android:backgroundTint="#030109"
+        android:text="Nasıl Oynanır?"
+        app:cornerRadius="12dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonStart"
+        app:strokeColor="#835eba"
+        app:strokeWidth="2dp" />
+
+    <Button
+        android:id="@+id/buttonInfo"
+        android:layout_width="268dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginEnd="72dp"
+        android:backgroundTint="#030109"
+        android:text="Bilgiler"
+        app:cornerRadius="12dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonHowToPlay"
+        app:strokeColor="#835eba"
+        app:strokeWidth="2dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
